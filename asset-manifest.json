@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-project2/static/css/main.e843dd65.css",
+    "main.js": "/React-project2/static/js/main.28d65ba8.js",
+    "static/media/nanyangung.svg": "/React-project2/static/media/nanyangung.20fcdeed8323ffc26ac03ecabfa89491.svg",
+    "static/media/stanford.svg": "/React-project2/static/media/stanford.dbb5029c835092e21ba0085d88128a5c.svg",
+    "static/media/harvard.svg": "/React-project2/static/media/harvard.23362aec8ab0daccee12ef06156090b8.svg",
+    "static/media/oxford.svg": "/React-project2/static/media/oxford.f5a1149f98b065b772be2998aaaa5345.svg",
+    "static/media/avatar.svg": "/React-project2/static/media/avatar.968f84c7f229e4bf736408991753cfd5.svg",
+    "static/media/avatar (1).svg": "/React-project2/static/media/avatar (1).30da4a67e351be2627e5948d7cd3a3f0.svg",
+    "static/media/avatar (2).svg": "/React-project2/static/media/avatar (2).30da4a67e351be2627e5948d7cd3a3f0.svg",
+    "static/media/header-boy.svg": "/React-project2/static/media/header-boy.78050a4bd59459f35bfd28ab9c715e21.svg",
+    "static/media/heroein.svg": "/React-project2/static/media/heroein.3053d97fa7c03cf3e2c2a092c0e229fe.svg",
+    "static/media/booking-sec-heroein.svg": "/React-project2/static/media/booking-sec-heroein.e14659ad8bf55d208e742d6d4160841a.svg",
+    "static/media/testmonial-3.svg": "/React-project2/static/media/testmonial-3.f8566cfcbd264461bd61de973288a23d.svg",
+    "static/media/testmonial-1.svg": "/React-project2/static/media/testmonial-1.56e560bd73fd937db5ab84c3837e236b.svg",
+    "static/media/testmonial-2.svg": "/React-project2/static/media/testmonial-2.d1a76cb4d2e5bfaa28eca9deb1c59d7c.svg",
+    "index.html": "/React-project2/index.html",
+    "static/media/icon-menu-close.svg": "/React-project2/static/media/icon-menu-close.ca20d86e8364ad748c947025ef771994.svg",
+    "static/media/icon-menu.svg": "/React-project2/static/media/icon-menu.f967d833be0e64002eeaadab0bae9ac5.svg",
+    "main.e843dd65.css.map": "/React-project2/static/css/main.e843dd65.css.map",
+    "main.28d65ba8.js.map": "/React-project2/static/js/main.28d65ba8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e843dd65.css",
+    "static/js/main.28d65ba8.js"
+  ]
+}
