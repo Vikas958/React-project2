@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  /* text-decoration: none; */
+  /* border: 1px solid red; */
+}
+#Navmob {
+  display: none;
+}
+.menubtn {
+  display: none;
+}
+.desknav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 30px;
+  /* box-shadow: 0 0 0 1px rgba(0, 0,0,0.42); */
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+.deskNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 20px;
+}
+.offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  > button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+  }
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+
+  > .heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+   max-width: 50%;
+    gap: 20px;
+    > h4 {
+      font-size: 20px;
+    }
+    > h1 {
+      font-size: 55px;
+    }
+    > button {
+      padding: 10px 15px;
+      background-color: orange;
+      border-radius: 10px;
+      border: none;
+      color: white;
+    }
+  }
+}
+.adventure {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  gap: 30px;
+}
+.avatars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.avatar1,
+.avatar2,
+.avatar3 {
+  background-color: rgb(170, 205, 110);
+  padding: 10px;
+  border-radius: 10px;
+}
+.tropical {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 20px;
+  > p {
+    font-size: 25px;
+  }
+  > .ul {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  > h4 {
+    font-size: 30px;
+  }
+  > button {
+    margin-top: 10px;
+    background-color: orange;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+  }
+}
+.tropical h1 {
+  font-size: 50px;
+}
+.main {
+  margin-top: 30px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* max-width: 1300px; */
+  align-items: center;
+}
+.cards {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: flex-end; */
+  gap: 10px;
+  /* overflow-x: scroll; */
+  max-width: 1300px;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 12px;
+}
+.discount {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.student-discount {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+  > p {
+    font-size: 25px;
+  }
+  > h1 {
+    font-size: 40px;
+  }
+  > .list {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  > h4 {
+    font-size: 30px;
+  }
+  > button {
+    margin-top: 10px;
+    background-color: orange;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+  }
+}
+.booknow {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  > .booking {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 10px;
+    > h1 {
+      font-size: 40px;
+    }
+    > p {
+      font-size: 25px;
+    }
+    > h4 {
+      font-size: 25px;
+    }
+    > input {
+      padding: 8px 15px;
+    }
+
+    > button {
+      margin-top: 20px;
+      background-color: orange;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 10px;
+      color: white;
+    }
+  }
+}
+.testmonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 0px 70px;
+  margin-top: 20px;
+
+  > .tests {
+    display: flex;
+    /* align-items: center; */
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 70px; */
+    margin: 20px 0;
+
+    > .test {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin: 20px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      > h3 {
+        border-bottom: 1px solid rgb(62, 58, 58);
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0 30px 0;
+  gap: 20px;
+  text-align: center;
+  .heading {
+    padding: 10px;
+  }
+  > .para {
+    font-size: 18px;
+  }
+  > .lists {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    > .list1 {
+      display: flex;
+      gap: 20px;
+      justify-content: space-around;
+    }
+    > .list2 {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}
+ul li {
+  list-style-type: none;
+}
+
+.mob-nav {
+  display: none;
+}
+.desk-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  > .list1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  > .list2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+  }
+}
+.courses button{
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.none {
+  display: none;
+}
+.menu-open {
+  cursor: pointer;
+}
+.emptytag {
+  display: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+.flex {
+  display: flex;
+}
+.menu-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+@media screen and (max-width: 700px) {
+  .desk-nav {
+    display: none;
+  }
+  .emptytag {
+    display: block;
+  }
+  .mob-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* margin: 20px 0; */
+    padding: 20px 0;
+    >.list1{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    >.list2{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        >.courses button{
+            background-color: orange;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 15px;
+        }
+    }
+  }
+  .header{
+    flex-direction: column-reverse;
+  }
+  .heading{
+   /* display: unset; */
+   /* display: flex; */
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+  max-width: 100%;
+   >h1{
+    font-size: 40px;
+   }
+  }
+  .adventure{
+    flex-direction: column;
+    >.tropical{
+        /* text-align: center; */
+        align-items: center;
+    }
+  }
+  .main{
+    overflow-x: scroll;
+  }
+  .discount{
+    flex-direction: column-reverse;
+    gap: 10px;
+    >.student-discount{
+        align-items: center;
+    }
+  }
+  .booknow{
+    flex-direction: column;
+    >.booking{
+        align-items: center;
+    }
+  }
+  .tests{
+    flex-direction: column;
+
+  }
+  .lists{
+    >.list1{
+        flex-direction: column;
+    }
+    >.list2{
+        flex-direction: column;
+    }
+  }
+}
